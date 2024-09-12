@@ -238,11 +238,11 @@ body {
 
 @media (max-width: 576px) {
     .talent-container {
-        flex-direction: column; /* 要素を一列で縦に並べる */
+        flex-direction: row; /* 要素を一列で縦に並べる */
         
     }
     .talent {
-        width: 50%; /* カードの幅をフルに */
+        width: 45%; /* カードの幅をフルに */
         margin: 0 auto 20px auto;
     }
 }
