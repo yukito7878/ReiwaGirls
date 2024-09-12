@@ -231,7 +231,7 @@ body {
         flex-direction: row; /* 要素を一列で並べる */
     }
     .talent {
-        width: 45%; /* カードの幅を調整 */
+        width: 40%; /* カードの幅を調整 */
         margin-bottom: 20px;
     }
 }
