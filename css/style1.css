@@ -169,7 +169,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+    transition: opacity 0.1s ease-out, transform 0.3s ease-out;
     background-size: cover;
     background-position: center;
     opacity: 0; /* 初期状態は非表示 */
