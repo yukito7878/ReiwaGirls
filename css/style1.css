@@ -125,6 +125,7 @@ body {
     background-repeat: no-repeat;
     color: #333;
     line-height: 1.6;
+    z-index: 1; /* 背景セクションを後ろに配置 */
 }
 
 .talent-section::before {
@@ -169,7 +170,7 @@ body {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.1s ease-out, transform 0.3s ease-out;
+    transition: opacity 0.7s ease-out, transform 0.3s ease-out;
     background-size: cover;
     background-position: center;
     opacity: 0; /* 初期状態は非表示 */
@@ -197,30 +198,28 @@ body {
     font-family: 'Noto Serif JP', serif;
     font-size: 0.7rem;
     padding: 5px 10px;
-    z-index: 1;
 }
 
 /* SNSアイコン */
-.social-icons {
+.socialIcons {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    z-index: 2;
     display: flex;
     gap: 10px;
 }
 
-.social-icons a {
+.socialIcons a {
     display: inline-block;
     width: 30px;
     height: 30px;
 }
 
-.social-icons a:hover {
+.socialIcons a:hover {
     transform: scale(1.1); /* ホバー時に拡大 */
 }
 
-.social-icons img {
+.socialIcons img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -254,20 +253,7 @@ body {
     }
 }
 
-.add-new {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-    cursor: pointer;
-    font-size: 3rem;
-    color: #333;
-}
 
-.plus-sign {
-    font-size: 3rem;
-    color: #333;
-}
 
 /* Footer */
 .footer {
