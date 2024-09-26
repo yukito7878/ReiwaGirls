@@ -2,6 +2,7 @@
 // DOMが読み込まれたときに実行
 
 import { talents } from './talents_info.js';
+
 document.addEventListener("DOMContentLoaded", function() {
     const container = document.querySelector('.talent-container'); // タレントを表示する親要素
 
