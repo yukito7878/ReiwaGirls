@@ -33,15 +33,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     	// X (Twitter) リンクがある場合
     	if (talent.x) {
-    	    socialIconsDiv.innerHTML += `<a href="${talent.x}" target="_blank"><img src="IconImage/X.jpg" alt="X (Twitter)"></a>`;
+    	    socialIconsDiv.innerHTML += `<a href="${talent.x}" target="_blank"><img src="IconImage/X.png" alt="X (Twitter)"></a>`;
     	}
 
-    	// 作成した要素を組み合わせてcontainerに追加
+    	// 作成した要素を組み合わせてcontainerに追加aiu
     	talentDiv.appendChild(nameDiv);
     	talentDiv.appendChild(socialIconsDiv);
     	container.appendChild(talentDiv);
 	});
-	
+
 	const talentsBox = document.querySelectorAll('.talent'); // すべてのタレント要素を取得
 
     const observer = new IntersectionObserver((entries) => {

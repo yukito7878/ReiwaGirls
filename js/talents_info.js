@@ -226,6 +226,22 @@ export const talents = [
         x: ""
     },
     {
+        name: "矢口里奈",
+        title: "Model",
+        image: "ReiwaGirls/54YaguchiRina.jpg",
+        tiktok: "https://www.tiktok.com/@happyriintiktok?_t=8q3iOP4qWbI&_r=",
+        instagram: "https://www.instagram.com/happy__riin?igsh=MWQ1ZGUxMzBkMA==",
+        x: ""
+    },
+    {
+        name: "中村詩梨",
+        title: "Model",
+        image: "ReiwaGirls/53ShiriNakamura.jpg",
+        tiktok: "https://www.tiktok.com/@utana_missuniv?_t=8q2nQfwjxfY&_r=1",
+        instagram: "https://www.instagram.com/utana_0730?igsh=MTJtZXR1cGN2ajhnYQ%3D%3D&utm_source=qr",
+        x: "https://x.com/utana_missuniv?s=21"
+    },
+    {
         name: "秋原恵麻",
         title: "Influencer/Model",
         image: "ReiwaGirls/28EimiNakaigawa.jpg",
@@ -233,6 +249,7 @@ export const talents = [
         instagram: "https://www.instagram.com/emma_cakelove",
         x: ""
     },
+    
     {
         name: "本田希",
         title: "Influencer",
